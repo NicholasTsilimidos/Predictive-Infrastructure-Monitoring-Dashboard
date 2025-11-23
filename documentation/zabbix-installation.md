@@ -1,0 +1,1 @@
+This document provides the complete installation and configuration steps used to set up our Zabbix monitoring environment for the Predictive Infrastructure Monitoring Dashboard project. It includes all commands, prerequisites, and configuration changes required to install the Zabbix Server, frontend, database, and agents across the virtual machines.
