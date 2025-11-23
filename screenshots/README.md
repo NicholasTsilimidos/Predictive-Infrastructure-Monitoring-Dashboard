@@ -9,10 +9,10 @@ This folder contains all visual evidence and interface captures used in the proj
 
 These visuals support the Results section of the main README and provide evidence of a functional monitoring platform.
 
-Zabbix dashboard
-Host status
-CPU / memory graphs
-Trigger alerts
-Trend prediction
-Email notification
-The topology diagram
+- Zabbix dashboard
+- Host status
+- CPU / memory graphs
+- Trigger alerts
+- Trend prediction
+- Email notification
+- The topology diagram
