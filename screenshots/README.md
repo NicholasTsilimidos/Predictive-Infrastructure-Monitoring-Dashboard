@@ -1,0 +1,1 @@
+This folder contains all visual evidence and interface captures used in the project. These screenshots help demonstrate key steps of the setup process, system monitoring, and predictive alerting features in Zabbix.
