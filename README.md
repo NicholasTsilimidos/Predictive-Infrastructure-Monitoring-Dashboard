@@ -10,6 +10,8 @@ Our setup uses a Zabbix Server running on Linux inside a VirtualBox, along with 
 
 The main objective of this project is to build a fully functional monitoring environment accompanied by a structured dashboard, alert configurations, and data-flow documentation. This demonstrates how Zabbix can be used as a proactive monitoring solution to support uptime, operational stability, and infrastructure resilience in real-world environments.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Project Relevance: Explain why this problem or tool matters in cybersecurity/forensics. Why did you choose it? What skills or knowledge can someone gain from this work?
 
 Predictive monitoring plays a critical role in cybersecurity and digital forensics because many incidents begin with subtle anomalies long before a system fully fails. Tools like Zabbix allow people to detect early warning signs such as unexplained CPU spikes, memory exhaustion, slow website response times, unauthorized downtime, or abnormal network traffic that may indicate emerging vulnerabilities. By continuously collecting and storing system data, Zabbix supports real-time visibility as well as forensic reconstruction after an incident occurs.
