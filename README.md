@@ -22,7 +22,72 @@ This project helps develop practical skills that are valuable in cybersecurity a
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-4. Project Architecture & Workflow
+**Project Architecture & Workflow
+
+The architecture of our predictive monitoring environment is built around a Zabbix Server running on a Linux Virtual Machine, supported by a monitored Linux host and a web scenario designed to track the performance of the University at Albany website. This setup mirrors real-world monitoring infrastructures used in cybersecurity, IT operations, and system administration.
+
+System Architecture:
+
+1. Zabbix Server (Linux VM)
+•	Hosts the Zabbix frontend, server process, and MySQL database
+•	Receives data from monitored hosts
+•	Processes alert logic, triggers, and trend analysis
+•	Displays metrics and dashboards through the web interface
+
+2. Monitored Linux Host (Second VM)
+•	Runs the Zabbix Agent to collect local system metrics
+•	Sends CPU, memory, disk, and network data to the Zabbix Server
+•	Appears as a monitored host with individual dashboards and graphs
+
+3. Website Monitoring (UAlbany Web Scenario)
+•	Uses Zabbix’s Web Scenario feature
+•	Performs HTTP checks on the UAlbany website
+•	Verifies availability, response time, and response codes
+•	Triggers alerts when the website becomes slow or unreachable
+
+4. MySQL Database (within Zabbix Server VM)
+•	Stores history data (high-resolution metrics)
+•	Stores trend data (hourly aggregates for prediction)
+•	Supports analysis and long-term monitoring
+
+5. VirtualBox Environment
+•	Provides isolated VMs for the Zabbix server and monitored hosts
+•	Ensures a controlled environment for testing and data collection
+•	Reflects common lab setups used in cybersecurity programs
+
+Workflow Overview:
+
+1. Data Collection
+•	Zabbix Agent on the Linux host sends system metrics to the server
+•	Web Scenario performs recurring checks on the UAlbany website
+•	Zabbix Server records raw metrics and stores them in MySQL
+
+2. Processing & Evaluation
+•	Zabbix applies built-in thresholds and custom triggers
+•	Metrics are evaluated in real time for anomalies
+•	Trend data is aggregated for long-term analysis
+
+3. Alerting
+•	If performance drops below expected thresholds
+•	Zabbix generates alerts
+•	Email alerts and trigger logic are configured to notify administrators
+
+4. Visualization (Zabbix dashboards display)
+•	CPU/memory/disk graphs
+•	Network traffic charts
+•	Website response time and availability
+•	Trigger status and historical trends
+
+5. Predictive Monitoring
+•	Zabbix identifies long-term patterns (disk growth, CPU trends)
+•	Trend data allows administrators to anticipate potential failures
+•	Supports proactive response rather than reactive troubleshooting
+
+Architecture Summary:
+This workflow demonstrates how a real monitoring environment operates in cybersecurity and IT operations. Our architecture shows how monitored data flows from a host and website into the Zabbix Server, then into the database, and finally into dashboards, alerts, and trend analysis tools. This setup allows organizations to detect problems early, maintain availability, and strengthen their operational resilience.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 5. Methodology (How We Built It)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
