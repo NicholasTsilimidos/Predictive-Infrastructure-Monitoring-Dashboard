@@ -20,8 +20,52 @@ We chose Zabbix for this project because it is a widely used, open-source monito
 
 This project helps develop practical skills that are valuable in cybersecurity and digital forensics, including configuring monitoring agents, interpreting system metrics, detecting anomalies, and understanding service availability. These skills are essential for SOC analysts, incident responders, and forensic investigators who rely on accurate system data to identify threats, troubleshooting issues, and prevent outages. Overall, the project demonstrates how proactive monitoring strengthens system reliability, enhances visibility, and contributes to a stronger defensive posture in modern IT environments.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 4. Project Architecture & Workflow
 5. Methodology (How We Built It)
-6. Data Used
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
+**Data Used
+
+Zabbix collects real-time system and service data from both monitored hosts and web targets. For this project, the monitored data includes:
+
+Linux Host Metrics (Zabbix Agent)
+•	CPU Usage: Processor load over time to detect spikes or abnormal usage.
+•	Memory Utilization: Tracks available vs. used RAM to identify saturation.
+•	Disk Usage: Storage consumption, remaining free space, and early signs of exhaustion.
+•	Network Traffic: Inbound and outbound packet rates and unusual communication spikes.
+•	System Uptime: Verifies host stability and unexpected reboots.
+
+Website Monitoring (Web Scenario)
+•	HTTP Response Codes: Ensures the University at Albany website is returning 200 OK.
+•	Website Reachability: Alerts if the site becomes inaccessible.
+•	Response Time: Measures how long the site takes to load.
+•	Step Validation: Verifies multiple checks within the scenario for consistency.
+
+Zabbix Internal Data:
+Zabbix also records server performance metrics such as different processes, queue sizes, and agent availability, which help validate the health of the monitoring environment.
+Historical & Trend Data:
+
+Zabbix stores two types of data in its database:
+•	History Data: High-resolution metrics used for short-term monitoring.
+•	Trend Data: Aggregated hourly and daily values used for long-term analysis and forecasting.
+
+This data forms the foundation of the dashboard visualizations, alert triggers, and predictive monitoring used in our project.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 7. Results (Screenshots, Alerts, Trends)
-8. Conclusion & Next Steps
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Conclusion & Next Steps
+
+This project demonstrated how Zabbix can be used as an effective tool for proactive and predictive infrastructure monitoring. By setting up a Zabbix Server, configuring a monitored Linux host, and creating a web scenario from the University at Albany website, we were able to show how early detection of performance issues can prevent outages and reduce the impact of system failures. Zabbix’s ability to collect continuous metrics, visualize system behavior in real time, and generate alerts when thresholds are exceeded highlights its value in both cybersecurity and system administration environments.
+
+Working with Zabbix also provided hands-on experience with critical skills used by SOC analysts, incident responders, and system administrators. These include configuring monitoring agents, interpreting system metrics, detecting anomalies, and understanding how systems support both operational monitoring and forensic analysis. Through this project, we gained a deeper understanding of how predictive monitoring improves system reliability, enhances visibility, and strengthens the overall defensive posture of an organization.
+
+Overall, this project reinforced the importance of monitoring tools in modern IT environments and demonstrated how platforms like Zabbix can support uptime, improve response times, and offer insights that help prevent issues before they escalate as well. As organizations continue to rely on complex infrastructures, tools like Zabbix play a key role in ensuring stability, security, and operational resilience.
+
+Future improvements could also include integrating and testing the full email alerting system, expanding monitoring to additional hosts or services, and applying Zabbix’s forecasting capabilities to a provide a more secure trend analysis. These enhancements would strengthen the predictive monitoring environment even further and provide deeper insight into system performance and potential failures.
