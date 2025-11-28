@@ -1,9 +1,34 @@
-This folder contains all supporting documents that explain the setup, architecture, workflow, and data flow of our predictive monitoring project using Zabbix.
+# Supporting Documentation
 
-- Installation Guide** — Step-by-step instructions for installing the Zabbix Server, frontend, database, and agents on the virtual machines.
-- Data Flow Diagram** — Visual diagram showing how metrics move from the monitored clients → Zabbix Agent → Zabbix Server → Database → Dashboard.
-- System Architecture Overview** — Explanation of the VM setup (1 Zabbix server, 2 monitored clients) and how components interact.
-- Project Timeline & Member Contributions** — Weekly progress plan and responsibilities taken by each team member.
-- Methodology Notes** — Details on the tools, configurations, and techniques used throughout the project.
+This folder contains all supporting assignments and reference materials created throughout the semester that directly relate to the final project, "Predictive Infrastructure Monitoring Dashboard Using Zabbix."
 
-This directory provides all background and reference materials needed to understand and reproduce the environment and workflow used in our final project.
+These documents represent the research, planning, and design work completed prior to the final implementation and provide additional context for how the project evolved.
+
+## Contents
+
+### Project Foundations
+- **BFOR419-519 - Title, Scope, and Members of the Group**
+  Establishes the project topic, goals, scope, tools, and team roles.
+
+- **BFOR419-519 - Overview of the Project**
+  Provides a description of the system concept, use cases, and objectives.
+
+### Architecture & Design
+- **BFOR419-519 - Data Flow in Zabbix Monitoring System**
+  Shows how metrics and alerts travel from monitored systems through the Zabbix Server, database, and into dashboards.
+
+### Project Management
+- **BFOR419-519 - Timeline and Member Contribution**
+  Outlines weekly project milestones and responsibilities assigned to each team member.
+
+## How These Documents Were Used
+
+These materials were used as:
+- Planning references during system design
+- Architecture documentation for dashboard layout and data flow decisions
+- Evidence of project development across the semester
+- Validation of methodology choices in the final report
+
+The final submission and authoritative reference for results, screenshots, and implementation details is the project report:
+**"Predictive Infrastructure Monitoring Dashboard Using Zabbix"**
+
