@@ -61,3 +61,6 @@ For full technical details, screenshots, configuration steps, and results:
 
 ---
 
+## Potential Improvements
+
+Future enhancements could include expanding monitoring to additional hosts, enabling email alerting, and applying anomaly detection techniques for improved predictive analysis.
