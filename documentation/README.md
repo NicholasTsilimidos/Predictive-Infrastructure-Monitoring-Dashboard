@@ -1,34 +1,42 @@
-# Supporting Documentation
+# Documentation
 
-This folder contains all supporting assignments and reference materials created throughout the semester that directly relate to the final project, "Predictive Infrastructure Monitoring Dashboard Using Zabbix."
+This folder contains all supporting coursework and planning documents that was created throughout the semester for the project 
+"Predictive Infrastructure Monitoring Dashboard Using Zabbix."
 
-These documents represent the research, planning, and design work completed prior to the final implementation and provide additional context for how the project evolved.
+These documents show the development process of the project from planning and design to architecture and data modeling, which directly support the final implementation and report.
 
-## Contents
+---
 
-### Project Foundations
-- **BFOR419-519 - Title, Scope, and Members of the Group**
-  Establishes the project topic, goals, scope, tools, and team roles.
+### Project Overview & Scope
+- **BFOR419-519 - Title, Scope, and Member of the Group**
+  Defines the purpose of the project, the problem being solved, and team members.
 
 - **BFOR419-519 - Overview of the Project**
-  Provides a description of the system concept, use cases, and objectives.
+  Describes the goals of predictive monitoring, the use of Zabbix, and the system design involving three virtual machines 
+  (one Zabbix server, two monitored clients). Outlines expected outcomes including reduced downtime and proactive 
+  incident response.
 
-### Architecture & Design
+### Data Architecture & Flow
 - **BFOR419-519 - Data Flow in Zabbix Monitoring System**
-  Shows how metrics and alerts travel from monitored systems through the Zabbix Server, database, and into dashboards.
+  Explains the data pipeline from monitored systems through the Zabbix Agent, Zabbix Server, database, and dashboard 
+  visualization including alert generation and forecasting logic.
 
-### Project Management
+### Project Management & Collaboration
 - **BFOR419-519 - Timeline and Member Contribution**
-  Outlines weekly project milestones and responsibilities assigned to each team member.
+  Provides a week-by-week breakdown of project milestones, including VM setup, installation, monitoring configuration, 
+  alert creation, documentation, testing, and final presentation preparation.
+
+---
 
 ## How These Documents Were Used
 
 These materials were used as:
-- Planning references during system design
-- Architecture documentation for dashboard layout and data flow decisions
-- Evidence of project development across the semester
-- Validation of methodology choices in the final report
+- Planning references when designing the monitoring environment
+- Architecture documentation for system workflow decisions
+- Guidance for data modeling and predictive analysis logic
+- Evidence of collaborative project development across the semester
+- Supporting documentation for the final report
 
-The final submission and authoritative reference for results, screenshots, and implementation details is the project report:
-**"Predictive Infrastructure Monitoring Dashboard Using Zabbix"**
+The final version of all results, screenshots, technical steps, and analysis is contained in the final project report:
 
+**Predictive Infrastructure Monitoring Dashboard Using Zabbix**
