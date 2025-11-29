@@ -52,6 +52,14 @@ These results demonstrate how predictive monitoring improves visibility and inci
 
 ---
 
+## Conclusuion
+
+In this project, Zabbix was successfully installed and configured on an Ubuntu virtual machine to monitor both an external website and a local system. By setting up web monitoring for the UAlbany website and deploying the Zabbix Agent on the Ubuntu host, the project demonstrated how real-time system data, performance metrics, and availability checks can be collected and analyzed through a centralized dashboard. This hands-on experience showed how monitoring tools play a vital role in cybersecurity by helping detect problems early, identify unusual activity, and maintain system reliability.
+
+Future enhancements can include fully implementing email alerting, monitoring multiple hosts, and applying anomaly detection models for predictive risk analysis. Overall, the project provided valuable practical skills in Linux administration, system monitoring, and the use of open-source tools that are essential for cybersecurity and digital forensics work.
+
+---
+
 ## Documentation & Report
 For full technical details, screenshots, configuration steps, and results:
 
