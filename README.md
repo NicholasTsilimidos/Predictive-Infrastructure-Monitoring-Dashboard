@@ -80,8 +80,8 @@ Future enhancements can include fully implementing email alerting, monitoring mu
 ## Documentation & Report
 For full technical details, screenshots, configuration steps, and results:
 
-- **Final Project Report:** Predictive Infrastructure Monitoring Dashboard Using Zabbix (PDF)
-- **Installation Guide:** Zabbix Installation & Configuration Guide (PDF)
+- **Final Project Report:** Predictive Infrastructure Monitoring Dashboard Using Zabbix Report (PDF)
+- **Installation Guide:** Zabbix Installation Guide (PDF)
 - **Supporting Documents:** See `/documentation` folder
 
 ---
