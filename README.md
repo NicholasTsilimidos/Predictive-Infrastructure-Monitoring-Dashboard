@@ -24,7 +24,7 @@ This project connects directly to:
 ---
 ## Methodology
 Setup and Environment:
-- To complete this project, we created a controlled testing environment using VirtualBox. Inside VirtualBox, we installed Ubuntu Linux, which served as the server for running Zabbix. This virtual machine acted as the main monitoring system. we also ensured that the VM had internet access so Zabbix could monitor the UAlbany website.
+To complete this project, we created a controlled testing environment using VirtualBox. Inside VirtualBox, we installed Ubuntu Linux, which served as the server for running Zabbix. This virtual machine acted as the main monitoring system. we also ensured that the VM had internet access so Zabbix could monitor the UAlbany website.
 
 Tools, Frameworks, and Resources:
 - VirtualBox: to run the Ubuntu virtual machine
